@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planillas de Glucosa</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body id="dark" class="lightMode">
+    <div >
+        <div>
+    <form action="" method="post"> 
+        <input id="nombre" placeholder="Ingresar Nombre" autocomplete="" type="text" required></input><br>
+        <input id="apellido" placeholder="Ingresar Apellido" autocomplete="" required></input><br>
+        <input id="edad" type="number" placeholder="Ingresar Edad" min="0" autocomplete="" required></input><br>
+        <button id="identidad">Inscribir usuario</button><br><button id="nomaspersonas">Finalizar inscripcion</button> 
+    </form>
+     </div>
+         <h3>Analisis de Glucosa semanal</h3>
+         <div id="personas">
+         </div><br>
+          <label> Semanas </label><input id="semana" type="number" min="1" max="10"><br> <label>Fecha inicial     </label>
+          <input type="date" id="dias" ><br>
+          <button id="btnSemanas">Seleccionar</button>
+         <div id="formarSemanas">
+         </div>
+     <div><h3>Valores mayores</h3>
+       <p id="desa"></p>
+       <p id="almu"></p>
+       <p id="mer"></p>
+       <p id="cen"></p>
+     <h3>Valores menores</h3>
+       <p id="desa1"></p>
+       <p id="almu1"></p>
+       <p id="mer1"></p>
+       <p id="cen1"></p>
+    </div>
+       <br>
+     <!-- <div>
+         <p>Observaciones</p>
+         <textarea  id="obs" cols="35" rows="10" ></textarea><br>
+         <input type="submit" id="observaciones" value="Dejar observacion"></input>
+     </div>  -->
+     <div>
+        <button id="confirmar">Ingresar valores a la planilla</button>  <br>
+        <button id="mayor">Mostrar valores erroneos de persona seleccionada</button><br>
+        <button id="mostrar">Mostrar usuarios</button><br>
+        <button id="grafico">Ver grafico</button>
+        <br>
+     </div>
+     <div>
+        <select id="insuline">
+            <option value="1">Insulina de acción rápida </option>
+            <option value="2">Insulina de acción ultrarrápida</option>
+            <option value="3">Insulina acción intermedia (NPH)</option>
+            <option value="4">Mezcla de análgos de insulina</option>
+            <option value="5">Insulina de acción prolongada</option>
+        </select>
+        <button id="leerJSON">Ver informacion de insulina</button>
+        <div id="content">
+        </div>
+    </div>
+    <div class="conteiner"> 
+        <canvas id="myChart"></canvas>
+    </div>
+    <div id="todos">
+    </div>
+    
+ <button id="darkmode">Darkmode</button>
+  </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="proyecto.js"></script>
+</body>
+</html>

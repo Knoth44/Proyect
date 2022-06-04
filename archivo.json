@@ -1,0 +1,77 @@
+[
+   {      
+        "id":1,
+        "name":"Insulina de acción rápida",
+        "efecto": "6-8 horas ",
+        "max_effect": " 1-3 horas ",
+        "inyeccion": "30 minutos antes de comidas",
+        "duracion": "10-12 h",
+        "data":"Es transparente",
+        "img":[
+            "img/insulina.accion.rapida.png"
+        ]
+     },
+    {   
+         "id":2,
+         "name":"Insulina de acción ultrarrápida",
+         "efecto": " 1-2 horas ",
+         "max_effect": " 3-5 horas ",
+         "duracion": "1-2 h",
+         "inyeccion": "10 minutos antes de comidas",
+         "data": "Son transparentes al no tener ningún tipo de aditivo o retardante",
+         "img": [
+                 "img/ACCION_ULTRARRAPIDA.1.png",
+                 "img/ACCION_ULTRARRAPIDA.2.png",
+                 "img/ACCION_ULTRARRAPIDA.3.png",
+                 "img/ACCION_ULTRARRAPIDA.4.png"  
+         ]
+    },
+   {  
+        "id":3,
+        "name":"Insulina acción intermedia (NPH)",
+        "efecto": "1-2 horas",
+         "max_effect": "4-6 horas",
+         "duracion": "10-12 h",
+        "inyeccion": "30 minutos antes de comidas",
+        "data": "30 minutos antes comidas se utiliza como insulina basal cuando se inyecta dos veces al día o en una sola dosis antes de acostarse en un régimen  de múltiples dosis.",
+             "img": [
+                 "img/ACCION_INTERMEDIA(NPH).1.png",
+                 "img/ACCION_INTERMEDIA(NPH).2.png",
+                 "img/ACCION_INTERMEDIA(NPH).3.png"
+             ]
+},   
+      { 
+         "id":4,
+         "name":"Mezcla de análgos de insulina",
+         "efecto": "1-2 horas",
+         "max_effect": "4-6 horas",
+         "duracion": "10-12 h",
+         "inyeccion": "10 minutos antes de comidas",
+         "data":"Son mezclas fijas",
+                 "img": [
+                     "img/ANALOGOS_DE_INSULINA.1.png",
+                     "img/ANALOGOS_DE_INSULINA.2.png",
+                     "img/ANALOGOS_DE_INSULINA.3.png",
+                     "img/ANALOGOS_DE_INSULINA.4.png",
+                     "img/ANALOGOS_DE_INSULINA.5.png"
+                 ]
+                    
+      },
+      { 
+         "id":5,
+         "name": "Insulina de acción prolongada",
+         "efecto": "60-90 minutos",
+         "max_effect": "17- 24 horas dependiendo del tipo de insulina",
+         "duracion": "12 horas tras su administración",
+         "inyeccion": "Inyectar a una hora fija todos los días.",
+         "data":" La insulina glargina es una solución clara pero que precipita (se hace opaca) después de la inyección por el mayor pH en el tejido subcutáneo. La insulina detemir se une a una proteína en la sangre, la albúmina.",
+                 "img": [
+                     "img/INSULINA_DE_ACCION_PROLONGADA.1.png",
+                     "img/INSULINA_DE_ACCION_PROLONGADA.2.png",
+                     "img/INSULINA_DE_ACCION_PROLONGADA.3.png"
+                 ]
+       }
+]
+   
+
+

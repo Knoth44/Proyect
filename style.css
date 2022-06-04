@@ -1,0 +1,26 @@
+
+#myChart {
+
+  background-color: rgb(75, 49, 49);
+  width: 100vw;
+  height: 50;
+
+}
+
+.darkMode {
+
+  font-family: system-ui;
+  background: rgb(53, 53, 53);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+}
+
+.lightMode {
+
+  font-family: system-ui;
+  background-color: #e96f36;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
